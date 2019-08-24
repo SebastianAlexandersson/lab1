@@ -13,6 +13,28 @@
         <header>
             <a href="/index.html"><h1>Laboration 1</h1></a>
         </header>
+        <section>
+            <h2>Såhär fungerar internettrafik i en webbläsare</h2>
+            <article>
+                <p>
+                    Internettrafik är uppdelat i flera olika lager. I botten har man ett transportlager
+                    som kallas <a href="#"><abbr title="TCP">TCP</abbr></a>. Med TCP upprättar man en anslutning
+                    till en annan server som sedan kan användas för att skicka data mellan din dator och servern
+                    via olika internetprotokoll som körs ovanpå TCP.
+
+                    Ett exempel på ett sådant protokoll är <a href="#"><abrr title="TLS">TLS</abrr></a> som används
+                    för att kryptera datatrafiken i en TCP-uppkoppling. Ett annat sådant protkoll är
+                    <a href="#"><abrr title="DNS">DNS</abrr></a>. DNS används för att översätta en textbaserad webbadress
+                    såsom "www.google.com" till ett en numerisk adress som datorn förstår. En sådan adress kallas för
+                    ett <a href="#"><abbr title="IP">IP</abbr></a>-nummer. I webbläsaren används ännu ett protokoll som körs
+                    ovanpå TCP - <a href="#"><abbr title="HTTP">HTTP</abbr></a>. I HTTP arbetarm man utefter dynamiken
+                    <strong>begäran eller request</strong> och <strong>svar eller response.</strong> Klienten (i det här fallet
+                    din webbläsare) skickar en request till en server som svarar med en response. En request är typiskt att man 
+                    ber servern om en html-sida (t.ex genom att klicka på en länk). Server svarar då, förutsatt att allt gått som det ska
+                    med en response som innehåller den HTML och de övriga filer browsern behöver för att visa sidan.
+                </p>
+            </article>
+        </section>
     </div> 
 </body>
 </html>

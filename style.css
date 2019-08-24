@@ -16,10 +16,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 2em;
 }
 
 .articles {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -55,4 +57,18 @@ h2  {
     background-image: url(./img/InternetProtocolStack.png);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+a:visited {
+    color: blue;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.img-container {
+    width: 5em;
+    margin: auto;
 }
