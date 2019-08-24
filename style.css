@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.articles {
+    display: flex;
+}
+
+.card {
+    width: 15em;
+    height: 10em;
+    background-color: #fff;
+    margin: 2em;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+h2  {
+    text-align: center;
+}
+
+.card-1 {
+    background-image: url(./img/code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-2 {
+    background-image: url(./img/settings.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-3 {
+    background-image: url(./img/InternetProtocolStack.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
