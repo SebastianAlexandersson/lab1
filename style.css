@@ -16,7 +16,9 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2em;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .articles {
@@ -42,19 +44,19 @@ h2  {
 }
 
 .card-1 {
-    background-image: url(./img/code.png);
+    background-image: url(img/code.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .card-2 {
-    background-image: url(./img/settings.png);
+    background-image: url(img/settings.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .card-3 {
-    background-image: url(./img/InternetProtocolStack.png);
+    background-image: url(img/InternetProtocolStack.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -72,3 +74,4 @@ a:visited {
     width: 5em;
     margin: auto;
 }
+
